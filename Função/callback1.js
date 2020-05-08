@@ -8,4 +8,4 @@ fabricantes.forEach(imprimir)
 fabricantes.forEach(function (fabric) {
     console.log(fabric)
 })
-fabricantes.forEach(fabric => console.log(fabric))
+fabricantes.forEach (fabric => console.log(fabric))
