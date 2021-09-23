@@ -60,7 +60,7 @@ export default {
 
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: flex-end;
 }
 
 .door {
