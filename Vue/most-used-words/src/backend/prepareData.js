@@ -8,7 +8,6 @@ module.exports = rows => {
                 .reduce(mergeRows)
                 .split(' ')
                 .map(word => word.toLowerCase())
-                .replace('"', '')
 
             resolver(words)
         } catch (e) {

@@ -4,7 +4,7 @@ module.exports = paths => {
     return new Promise((resolver, reject) => {
         try {
             const rows = paths
-                .map(path => fs.readFileSync(path).toString('UTF-8'))
+                .map(path => fs.readFileSync(path).toString('undefined'))
                 .reduce((fullText, fileText) => `${fullText}\n${fileText}`)
                 .split('\n')
             resolver(rows)

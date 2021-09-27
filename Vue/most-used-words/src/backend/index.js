@@ -1,12 +1,12 @@
 const { ipcMain } = require("electron");
 
-const pathsToRows = require('./pathsToRows')
+const pathsToRow = require('./pathsToRows')
 const prepareData = require('./prepareData')
 
 ipcMain.on("process-subtitles", (event, paths) => {
     console.log(paths);
 
-    pathsToRows(paths)
+    pathsToRow(paths)
         .then(rows => prepareData(rows))
         .then(words => console.log(words))
         .then(() => {
