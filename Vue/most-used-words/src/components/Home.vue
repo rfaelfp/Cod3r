@@ -25,26 +25,26 @@
 
 <script>
 import { ipcRenderer } from 'electron'
-import Pill from "./Pill.vue";
+import Pill from "./Pill";
 
 export default {
   components: {
-    Pill,
+    Pill
   },
   data: function () {
     return {
       files: [],
       groupedWords: []
-    };
+    }
   },
   methods: {
     processSubtitles() {
       
       const paths = this.files.map(f => f.path)
       ipcRenderer.send('process-subtitles', paths)
-      ipcRenderer.on('process-subtitles', (event, resp => {
+      ipcRenderer.on('process-subtitles', (event, resp) => {
           this.groupedWords = resp
-      }))
+      })
     },
   },
 };
