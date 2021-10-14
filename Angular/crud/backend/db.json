@@ -1,24 +1,24 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Caneta BIC preta",
-      "price": 5.89
+      "name": "Rafael Ferreira Pedrosa alterado",
+      "price": "580.09",
+      "id": 6
     },
     {
-      "id": 2,
-      "name": "Notebook Mac Pro",
-      "price": 12000.89
+      "name": "Java 2021 COMPLETO: Do Zero ao Profissional + Projetos ",
+      "price": "299",
+      "id": 7
     },
     {
-      "id": 3,
-      "name": "Samguns S+",
-      "price": 5000.89
+      "name": "tetete",
+      "price": "299",
+      "id": 8
     },
     {
-      "name": "Veio do formulário",
-      "price": "5000",
-      "id": 4
+      "name": "teste",
+      "price": "299.25",
+      "id": 9
     }
   ]
 }
