@@ -1,7 +1,7 @@
 {
   "products": [
     {
-      "name": "Rafael Ferreira Pedrosa alterado",
+      "name": "Rafael Ferreira Pedrosa",
       "price": "580.09",
       "id": 6
     },
@@ -19,6 +19,11 @@
       "name": "teste",
       "price": "299.25",
       "id": 9
+    },
+    {
+      "name": "Novo Produto",
+      "price": "1554",
+      "id": 10
     }
   ]
 }
